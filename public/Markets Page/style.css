@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Maven+Pro&display=swap');
+
+.general-container{
+    height: 1000px;
+}
+
+#text-navbar{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#text-navbar:hover{
+    text-decoration: underline;
+}
+
+.hola{
+    height: 500px;
+}
+
+.navbar-modi{
+    background-color: #293241;
+}
+
+.identification{
+    background-color: #293241;
+    height: 50px;
+}
+
+.idr{
+    text-decoration: none;
+}
+
+.idr:hover{
+    text-decoration: underline;
+}
+
+.augment_price{
+    animation-name: augment-price;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.delays{
+    animation-name: delay;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.other-delay{
+    animation-name: other-delay;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.move-percentage-down{
+    animation-name: percentage-move-down;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.move-percentage-up{
+    animation-name: percentage-move-up;
+    animation-delay: 2s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.move-percentage-up-delay{
+    animation-name: percentage-move-up-delay;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.div-footer{
+    background-color: #293241;
+}
+
+@keyframes percentage-move-up-delay{
+    0%{
+        color: rgb(52, 207, 52);
+    }
+
+    10%{
+        color: black;
+    }
+
+    30%{
+        color: rgb(52, 207, 52);
+    }
+
+    50%{
+        color: rgb(52, 207, 52);
+    }
+    100%{
+        color: black;
+    }
+}
+
+@keyframes other-delay{
+    0%{
+        color: red;
+    }
+
+    10%{
+        color: black;
+    }
+
+    30%{
+        color: red;
+    }
+
+    50%{
+        color: rgb(52, 207, 52);
+    }
+    100%{
+        color: red;
+    }
+}
+
+@keyframes percentage-move-down{
+    0%{
+        color: red;
+    }
+
+    10%{
+        color: black;
+    }
+
+    30%{
+        color: red;
+    }
+
+    50%{
+        color: black;
+    }
+    100%{
+        color: red;
+    }
+}
+
+@keyframes percentage-move-up{
+    0%{
+        color: rgb(52, 207, 52);
+    }
+
+    10%{
+        color: black;
+    }
+
+    30%{
+        color: rgb(52, 207, 52);
+    }
+
+    50%{
+        color: black;
+    }
+    100%{
+        color: rgb(52, 207, 52);
+    }
+}
+
+@keyframes augment-price{
+    0%{
+        color: red;
+    }
+
+    5%{
+        color: black;
+    }
+
+    50%{
+        color: rgb(52, 207, 52);
+    }
+
+    75%{
+        color: black;
+    }
+
+    
+    100%{
+        color: red;
+    }
+}
+
+@keyframes delay{
+    0%{
+        color: rgb(52, 207, 52);
+    }
+
+    25%{
+        color: rgb(52, 207, 52);
+    }
+
+    50%{
+        color: red;
+    }
+
+    100%{
+        color: red;
+    }
+}
+
+@media screen and (max-width:1181px){
+    .newsletter{
+        display: none;
+    }
+
+    .shortcuts{
+        display: none;
+    }
+
+    .legal{
+        display: none;
+    }
+}

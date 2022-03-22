@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Maven+Pro&display=swap');
+
+.general-container{
+    height: 1000px;
+}
+
+#text-navbar{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#text-navbar:hover{
+    text-decoration: underline;
+}
+
+.hola{
+    height: 500px;
+}
+
+.navbar-modi{
+    background-color: #293241;
+}
+
+.identification{
+    background-color: #293241;
+    height: 50px;
+}
+
+.idr{
+    text-decoration: none;
+}
+
+.idr:hover{
+    text-decoration: underline;
+}
+
+.div-footer{
+    background-color: #293241;
+}
+
+.persons{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#person1{
+    background-image: url(./Images/Person1.jpg);
+}
+
+#person2{
+    background-image: url(./Images/Person2.jpg);
+}
+
+#person3{
+    background-image: url(./Images/Person3.jpg);
+}
+
+@media screen and (max-width:1181px){
+    .newsletter{
+        display: none;
+    }
+
+    .shortcuts{
+        display: none;
+    }
+
+    .legal{
+        display: none;
+    }
+}
